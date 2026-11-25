@@ -1,4 +1,4 @@
-const [owner, repo] = (process.env.GITHUB_REPOSITORY || 'OWNER/trinity-games').split('/');
+const [owner, repo] = (process.env.GITHUB_REPOSITORY || 'OWNER/Trinity-Games').split('/');
 
 export const SITE = {
   name: 'Trinity Games',

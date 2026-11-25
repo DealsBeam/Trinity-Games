@@ -11,7 +11,7 @@ Needs Node >= 22.23.4, git, and the GitHub CLI logged in (`gh auth status`).
 npm ci
 git init -b main
 git add -A && git commit -m "init"
-gh repo create trinity-games --public --source=. --remote=origin --push
+gh repo create Trinity-Games --public --source=. --remote=origin --push
 gh api -X POST 'repos/{owner}/{repo}/pages' -f build_type=workflow || gh api -X PUT 'repos/{owner}/{repo}/pages' -f build_type=workflow
 gh workflow run site
 gh run watch
@@ -19,7 +19,7 @@ gh run watch
 
 The run triggered by the first push may fail at the deploy step because Pages was not enabled yet. That is expected. The manual `gh workflow run site` is the one that counts.
 
-Your site: `https://<your-username>.github.io/trinity-games/`
+Your site: `https://<your-username>.github.io/Trinity-Games/`
 
 ## First sync, then review
 
@@ -62,7 +62,7 @@ Body in Markdown.
 ## Local preview
 
 ```bash
-npm run dev          # http://localhost:4321/trinity-games/
+npm run dev          # http://localhost:4321/Trinity-Games/
 npm run build && npm run preview
 GITHUB_TOKEN=$(gh auth token) npm run sync    # run the data sync locally
 ```
