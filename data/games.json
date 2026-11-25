@@ -315,7 +315,7 @@
   "repo": "15Cyber/marvel-nemesis-recomp",
   "url": "https://github.com/15Cyber/marvel-nemesis-recomp",
   "description": "My unofficial Windows port of Marvel Nemesis: Rise of the Imperfects: Survival, 21:9, PC Settings and local Versus. Prebuilt EXE; bring your own game. Built on XboxXBERecomp with OpenAI Codex and Anthropic Claude AI assistance.",
-  "stars": 35,
+  "stars": 36,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-29T21:46:54Z",
@@ -1355,7 +1355,7 @@
   "repo": "adriadam10/mkw-recomp",
   "url": "https://github.com/adriadam10/mkw-recomp",
   "description": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
-  "stars": 1771,
+  "stars": 1770,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T17:23:29Z",
@@ -1543,7 +1543,7 @@
   "repo": "afcurtis/THPSource2",
   "url": "https://github.com/afcurtis/THPSource2",
   "description": "Tony Hawk's Pro Skater 2 [PC|2000], fully decompiled and rebuilt as a native 64-bit game with quality-of-life fixes and major upgrades. Bring your own copy; no game files included.",
-  "stars": 32,
+  "stars": 34,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T23:07:35Z",
@@ -1695,7 +1695,7 @@
   "repo": "Ahmet-Dedeler/awesome-gta6-reverse-engineering",
   "url": "https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering",
   "description": "Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9 archive explorers, TTPF texture & ADAT/AWC audio decoders, format docs, and Xbox Series / PS5 translation layers.",
-  "stars": 691,
+  "stars": 694,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T19:00:55Z",
@@ -4252,7 +4252,7 @@
   "stars": 17,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:15:14Z",
+  "pushedAt": "2026-11-25T01:38:49Z",
   "license": "LGPL-3.0",
   "release": null,
   "sources": [
@@ -4436,8 +4436,8 @@
   "pushedAt": "2026-11-24T22:49:25Z",
   "license": "GPL-2.0",
   "release": {
-   "tag": "v1.4.1",
-   "date": "2026-11-24T02:52:26Z"
+   "tag": "v1.5.0",
+   "date": "2026-11-25T01:37:23Z"
   },
   "sources": [
    "native-ports",
@@ -4836,7 +4836,7 @@
   "stars": 3,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:01:31Z",
+  "pushedAt": "2026-11-25T01:36:33Z",
   "license": "NOASSERTION",
   "release": {
    "tag": "v0.13",
@@ -5391,11 +5391,11 @@
   "stars": 56,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:17:51Z",
+  "pushedAt": "2026-11-25T01:22:24Z",
   "license": "Apache-2.0",
   "release": {
-   "tag": "v1.8",
-   "date": "2026-11-24T20:03:11Z"
+   "tag": "v1.9",
+   "date": "2026-11-25T01:23:16Z"
   },
   "sources": [
    "topic:static-recompilation"
@@ -5587,7 +5587,7 @@
   "stars": 7,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T20:51:51Z",
+  "pushedAt": "2026-11-25T01:45:45Z",
   "license": null,
   "release": null,
   "sources": [
@@ -6033,8 +6033,7 @@
    "date": "2026-11-24T05:48:07Z"
   },
   "sources": [
-   "awesome-decomp-games",
-   "topic:static-recompilation"
+   "awesome-decomp-games"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -6223,7 +6222,7 @@
   "stars": 93,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T01:14:12Z",
+  "pushedAt": "2026-11-25T01:38:46Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -6460,11 +6459,11 @@
   "stars": 120,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T22:29:39Z",
+  "pushedAt": "2026-11-25T01:22:58Z",
   "license": "GPL-3.0",
   "release": {
-   "tag": "v1.1.48",
-   "date": "2026-11-24T22:29:39Z"
+   "tag": "v1.1.49",
+   "date": "2026-11-25T01:22:58Z"
   },
   "sources": [
    "topic:static-recompilation"
@@ -7309,7 +7308,7 @@
   "stars": 14,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:34:00Z",
+  "pushedAt": "2026-11-25T01:38:33Z",
   "license": "Apache-2.0",
   "release": null,
   "sources": [
@@ -7414,7 +7413,7 @@
   "repo": "bonllavier/Corruption_3-PC",
   "url": "https://github.com/bonllavier/Corruption_3-PC",
   "description": "Native Windows and Linux port of Metroid Prime 3: Corruption (Wii, USA) and Prime Trilogy built with static recompilation, no emulator. Play with keyboard and mouse or a gamepad, with PC visual upgrades and RetroAchievements (casual mode). Requires your own disc.",
-  "stars": 96,
+  "stars": 97,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-17T15:30:59Z",
@@ -7514,7 +7513,7 @@
   "repo": "boykopovar/AnyPS5",
   "url": "https://github.com/boykopovar/AnyPS5",
   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-  "stars": 61306,
+  "stars": 61307,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T00:47:54Z",
@@ -7713,11 +7712,11 @@
   "stars": 76,
   "archived": false,
   "fork": true,
-  "pushedAt": "2026-11-25T01:12:05Z",
+  "pushedAt": "2026-11-25T01:20:18Z",
   "license": "NOASSERTION",
   "release": {
-   "tag": "2026/11/24/2112",
-   "date": "2026-11-24T21:18:41Z"
+   "tag": "2026/11/25/0113",
+   "date": "2026-11-25T01:20:18Z"
   },
   "sources": [
    "awesome-decomp-games"
@@ -8453,7 +8452,7 @@
   "repo": "CaduGimenes/SanctuaryPort",
   "url": "https://github.com/CaduGimenes/SanctuaryPort",
   "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
-  "stars": 170,
+  "stars": 172,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T00:44:38Z",
@@ -8672,7 +8671,7 @@
   "stars": 1,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T22:46:17Z",
+  "pushedAt": "2026-11-25T01:35:13Z",
   "license": null,
   "release": null,
   "sources": [
@@ -8982,7 +8981,7 @@
   "repo": "CarlosExabyte/Arceuszada",
   "url": "https://github.com/CarlosExabyte/Arceuszada",
   "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
-  "stars": 120,
+  "stars": 121,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T21:49:27Z",
@@ -9382,7 +9381,7 @@
   "stars": 19,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T21:24:40Z",
+  "pushedAt": "2026-11-25T01:29:50Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -9959,7 +9958,7 @@
   "repo": "cheviman/simpsons-port",
   "url": "https://github.com/cheviman/simpsons-port",
   "description": "The port: both games from the player's ROM set on Windows, Linux, macOS, the Switch, Android, iOS and the Anbernic, and The Simpsons' console: the Konami presentation, the menu on the TV, the character choice, WIDE, the Konami code, STEREO and Bart's orange shirt",
-  "stars": 142,
+  "stars": 143,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T13:43:21Z",
@@ -10225,7 +10224,7 @@
   "repo": "chrissotraidis/bluewake",
   "url": "https://github.com/chrissotraidis/bluewake",
   "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
-  "stars": 667,
+  "stars": 666,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T00:27:23Z",
@@ -10489,7 +10488,7 @@
   "stars": 147,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:20:32Z",
+  "pushedAt": "2026-11-25T01:43:53Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.9.1a",
@@ -10563,7 +10562,7 @@
   "stars": 6,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:56:39Z",
+  "pushedAt": "2026-11-25T01:27:05Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -11196,7 +11195,7 @@
   "stars": 18,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:16:34Z",
+  "pushedAt": "2026-11-25T01:46:11Z",
   "license": "Apache-2.0",
   "release": null,
   "sources": [
@@ -11762,7 +11761,7 @@
   "repo": "crazyriddler/FinestHourRemastered",
   "url": "https://github.com/crazyriddler/FinestHourRemastered",
   "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
-  "stars": 196,
+  "stars": 197,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-23T14:31:02Z",
@@ -12187,7 +12186,7 @@
   "repo": "cuesta4/GOW3rehooked",
   "url": "https://github.com/cuesta4/GOW3rehooked",
   "description": "GOW3rehooked - the definitive GOW3 Remastered experience on PC. ",
-  "stars": 350,
+  "stars": 351,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T21:39:36Z",
@@ -13328,7 +13327,7 @@
   "stars": 15,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:44:45Z",
+  "pushedAt": "2026-11-25T01:37:00Z",
   "license": "MIT",
   "release": null,
   "sources": [
@@ -13402,15 +13401,16 @@
   "stars": 12,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-21T00:09:38Z",
+  "pushedAt": "2026-11-25T01:44:46Z",
   "license": "MIT",
   "release": {
-   "tag": "v0.2.4a",
-   "date": "2026-11-20T00:18:16Z"
+   "tag": "v0.2.5",
+   "date": "2026-11-25T01:45:44Z"
   },
   "sources": [
    "awesome-decomp-games",
-   "native-ports"
+   "native-ports",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -13526,7 +13526,7 @@
   "repo": "Decomp-And-Recomp/Samurai-Vs-Zombies",
   "url": "https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies",
   "description": "Decompilation of Samurai Vs Zombies by Glu",
-  "stars": 29,
+  "stars": 30,
   "archived": false,
   "fork": false,
   "pushedAt": "2025-12-04T07:51:27Z",
@@ -15303,7 +15303,7 @@
   "stars": 1143,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T22:04:20Z",
+  "pushedAt": "2026-11-25T01:36:21Z",
   "license": "NOASSERTION",
   "release": {
    "tag": "nightly",
@@ -15728,7 +15728,7 @@
   "repo": "droogie/bbhost",
   "url": "https://github.com/droogie/bbhost",
   "description": "Definitive Bloodborne PC Experience",
-  "stars": 873,
+  "stars": 874,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-17T06:04:51Z",
@@ -16027,7 +16027,7 @@
   "stars": 120,
   "archived": false,
   "fork": true,
-  "pushedAt": "2026-11-24T19:03:57Z",
+  "pushedAt": "2026-11-25T01:41:32Z",
   "license": "MIT",
   "release": null,
   "sources": [
@@ -16098,7 +16098,7 @@
   "repo": "Dyotson/RecompiledHaloReach",
   "url": "https://github.com/Dyotson/RecompiledHaloReach",
   "description": "Native PC port of Halo: Reach (Xbox 360) via static recompilation with ReXGlue. No game code or assets included - bring your own copy.",
-  "stars": 53,
+  "stars": 54,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-12T18:45:56Z",
@@ -16269,7 +16269,7 @@
   "repo": "ebkr/r2modmanPlus",
   "url": "https://github.com/ebkr/r2modmanPlus",
   "description": "A simple and easy to use mod manager for several games using Thunderstore",
-  "stars": 2400,
+  "stars": 2401,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-19T09:28:40Z",
@@ -16632,10 +16632,10 @@
   "repo": "Eglantine-Community/Eglantine",
   "url": "https://github.com/Eglantine-Community/Eglantine",
   "description": "An experimental Switch 2 Emulator built for Windows, Linux and MacOS.",
-  "stars": 6231,
+  "stars": 6232,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:46:06Z",
+  "pushedAt": "2026-11-25T01:29:42Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.1.0-rc4",
@@ -18080,7 +18080,7 @@
   "repo": "EstebanPdN/zelda-alttp-3ds",
   "url": "https://github.com/EstebanPdN/zelda-alttp-3ds",
   "description": "Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3",
-  "stars": 810,
+  "stars": 811,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-19T14:48:14Z",
@@ -18580,8 +18580,7 @@
    "date": "2026-11-09T10:28:13Z"
   },
   "sources": [
-   "topic:recompilation",
-   "topic:static-recompilation"
+   "topic:recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -19783,7 +19782,7 @@
   "stars": 17,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:27:07Z",
+  "pushedAt": "2026-11-25T01:47:54Z",
   "license": "NOASSERTION",
   "release": {
    "tag": "v1.0.0",
@@ -19882,7 +19881,7 @@
   "stars": 454,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T22:28:10Z",
+  "pushedAt": "2026-11-25T01:39:39Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v1.0.1",
@@ -21251,7 +21250,7 @@
   "repo": "george0815/halo-3-recomp",
   "url": "https://github.com/george0815/halo-3-recomp",
   "description": null,
-  "stars": 28,
+  "stars": 29,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T14:41:45Z",
@@ -21508,7 +21507,7 @@
   "stars": 21,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:06:33Z",
+  "pushedAt": "2026-11-25T01:44:21Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -22076,7 +22075,7 @@
   "repo": "God-Hand-Rearmed/God-Hand-Rearmed",
   "url": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
   "description": "God Hand: Rearmed (Project Kamite) is an unofficial native PC port of the PS2 cult classic, built by static recompilation. No game data included. Play your own damn copy!",
-  "stars": 230,
+  "stars": 231,
   "archived": false,
   "fork": true,
   "pushedAt": "2026-11-24T21:47:32Z",
@@ -22140,7 +22139,7 @@
   "repo": "godotengine/godot",
   "url": "https://github.com/godotengine/godot",
   "description": "Godot Engine – Multi-platform 2D and 3D game engine",
-  "stars": 120739,
+  "stars": 120741,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T22:31:24Z",
@@ -22751,7 +22750,7 @@
   "repo": "gta-reversed/gta-reversed",
   "url": "https://github.com/gta-reversed/gta-reversed",
   "description": "Reimplementation of GTA:SA 1.0 US",
-  "stars": 1365,
+  "stars": 1366,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T22:51:37Z",
@@ -23004,7 +23003,7 @@
   "stars": 13,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:41:40Z",
+  "pushedAt": "2026-11-25T01:44:18Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -23648,7 +23647,7 @@
   "stars": 3,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:56:06Z",
+  "pushedAt": "2026-11-25T01:31:36Z",
   "license": "CC0-1.0",
   "release": null,
   "sources": [
@@ -24138,11 +24137,11 @@
   "stars": 207,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T19:03:52Z",
+  "pushedAt": "2026-11-25T01:46:15Z",
   "license": "GPL-3.0",
   "release": {
-   "tag": "v1.0.22",
-   "date": "2026-11-24T19:03:52Z"
+   "tag": "v1.0.23",
+   "date": "2026-11-25T01:46:15Z"
   },
   "sources": [
    "awesome-decomp-games"
@@ -25306,8 +25305,7 @@
   },
   "sources": [
    "awesome-decomp-games",
-   "native-ports",
-   "topic:recompilation"
+   "native-ports"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -25429,7 +25427,7 @@
   "repo": "imnotsharingmyname/pcportastrobot",
   "url": "https://github.com/imnotsharingmyname/pcportastrobot",
   "description": null,
-  "stars": 1161,
+  "stars": 1162,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T00:25:07Z",
@@ -25490,7 +25488,7 @@
   "repo": "imyourhuckleberryponcho/Pokemon-XD-PC-Port",
   "url": "https://github.com/imyourhuckleberryponcho/Pokemon-XD-PC-Port",
   "description": "Native PC Port for Pokemon XD: Gale of Darkness",
-  "stars": 99,
+  "stars": 100,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T19:36:33Z",
@@ -25895,7 +25893,7 @@
   "repo": "invinceble55-wq/Estacado-The-Darkness-Recomp",
   "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
   "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
-  "stars": 159,
+  "stars": 160,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-06T23:33:30Z",
@@ -26421,7 +26419,7 @@
   "repo": "Ivanprestef2/Monado-Reborn",
   "url": "https://github.com/Ivanprestef2/Monado-Reborn",
   "description": "Xenoblade Chronicles Definitive Edition Recompilacion Estatica con Mejoras. / Xenoblade Chronicles Definitive Edition Static Compilation with Enhancements",
-  "stars": 211,
+  "stars": 213,
   "archived": false,
   "fork": true,
   "pushedAt": "2026-11-25T00:40:37Z",
@@ -27282,7 +27280,7 @@
   "repo": "Jauidev/halo3recomp",
   "url": "https://github.com/Jauidev/halo3recomp",
   "description": "Port no oficial de Halo 3 (Xbox 360) a Android por recompilación estática",
-  "stars": 16,
+  "stars": 17,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-11T18:11:05Z",
@@ -28004,7 +28002,7 @@
   "stars": 5376,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-23T20:19:50Z",
+  "pushedAt": "2026-11-25T01:33:50Z",
   "license": "MIT",
   "release": {
    "tag": "v2.3.5",
@@ -28021,10 +28019,10 @@
   "repo": "jhaizhou-ops/S2Arm",
   "url": "https://github.com/jhaizhou-ops/S2Arm",
   "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
-  "stars": 3898,
+  "stars": 3901,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:16:00Z",
+  "pushedAt": "2026-11-25T01:47:18Z",
   "license": "Apache-2.0",
   "release": {
    "tag": "v0.6.10",
@@ -29149,7 +29147,7 @@
   "repo": "josiahg2502-glitch/TomodachiLife-recomp",
   "url": "https://github.com/josiahg2502-glitch/TomodachiLife-recomp",
   "description": "Static recompilation of Tomodachi Life: Living the Dream to a native Windows program: tools and runtime only, bring your own dump",
-  "stars": 121,
+  "stars": 120,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-06T09:11:56Z",
@@ -29293,7 +29291,7 @@
   "repo": "JRickey/BattleShip",
   "url": "https://github.com/JRickey/BattleShip",
   "description": "A smashin' port for PC, Mac, and Linux!",
-  "stars": 543,
+  "stars": 544,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T19:32:52Z",
@@ -29354,7 +29352,7 @@
   "stars": 4,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:07:43Z",
+  "pushedAt": "2026-11-25T01:43:57Z",
   "license": "CC0-1.0",
   "release": null,
   "sources": [
@@ -29388,7 +29386,7 @@
   "stars": 48,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:12:33Z",
+  "pushedAt": "2026-11-25T01:48:38Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -29620,7 +29618,7 @@
   "stars": 1,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:11:52Z",
+  "pushedAt": "2026-11-25T01:37:15Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -29642,7 +29640,6 @@
   "release": null,
   "sources": [
    "topic:n64recomp",
-   "topic:recompilation",
    "topic:source-port"
   ],
   "firstSeen": "2026-11-25",
@@ -29678,10 +29675,7 @@
   "fork": false,
   "pushedAt": "2026-11-10T19:42:20Z",
   "license": null,
-  "release": {
-   "tag": "2.0.7.735",
-   "date": "2022-05-01T14:30:48Z"
-  },
+  "release": null,
   "sources": [
    "topic:source-port"
   ],
@@ -29698,10 +29692,7 @@
   "fork": false,
   "pushedAt": "2026-11-11T16:27:26Z",
   "license": null,
-  "release": {
-   "tag": "1.0.13.755",
-   "date": "2022-05-04T17:45:58Z"
-  },
+  "release": null,
   "sources": [
    "topic:source-port"
   ],
@@ -29718,10 +29709,7 @@
   "fork": false,
   "pushedAt": "2026-11-10T19:51:15Z",
   "license": "GPL-2.0",
-  "release": {
-   "tag": "1.2.21.755",
-   "date": "2022-05-04T17:39:43Z"
-  },
+  "release": null,
   "sources": [
    "topic:source-port"
   ],
@@ -29738,10 +29726,7 @@
   "fork": false,
   "pushedAt": "2026-11-10T19:57:12Z",
   "license": "GPL-2.0",
-  "release": {
-   "tag": "1.0.4.745",
-   "date": "2022-04-24T16:46:37Z"
-  },
+  "release": null,
   "sources": [
    "topic:source-port"
   ],
@@ -30318,7 +30303,7 @@
   "repo": "kaustubhxd/ReFreedomFighters",
   "url": "https://github.com/kaustubhxd/ReFreedomFighters",
   "description": "Format decoders, specs, script VM and loaders for Freedom Fighters (2003). No game data.",
-  "stars": 7,
+  "stars": 8,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-09T10:09:35Z",
@@ -30356,7 +30341,7 @@
   "repo": "kayliox/transformers-armada-recomp",
   "url": "https://github.com/kayliox/transformers-armada-recomp",
   "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
-  "stars": 64,
+  "stars": 65,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T11:32:04Z",
@@ -30458,7 +30443,7 @@
   "stars": 635,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:51:21Z",
+  "pushedAt": "2026-11-25T01:47:56Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v2.0.0-beta.1",
@@ -30625,8 +30610,7 @@
   },
   "sources": [
    "native-ports",
-   "topic:pc-port",
-   "topic:recompilation"
+   "topic:pc-port"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -31163,7 +31147,7 @@
   "stars": 162,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:49:27Z",
+  "pushedAt": "2026-11-25T01:30:23Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -31900,7 +31884,7 @@
   "stars": 490,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:56:53Z",
+  "pushedAt": "2026-11-25T01:40:29Z",
   "license": "Apache-2.0",
   "release": {
    "tag": "terrain-paper",
@@ -32133,7 +32117,7 @@
   "stars": 12662,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:13:45Z",
+  "pushedAt": "2026-11-25T01:26:29Z",
   "license": "GPL-2.0",
   "release": {
    "tag": "KytyPS5-2026-11-25-8b82ca2",
@@ -32468,7 +32452,8 @@
    "date": "2026-11-23T15:38:03Z"
   },
   "sources": [
-   "native-ports"
+   "native-ports",
+   "topic:recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -33239,7 +33224,7 @@
   "stars": 89,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:56:30Z",
+  "pushedAt": "2026-11-25T01:42:03Z",
   "license": "Apache-2.0",
   "release": null,
   "sources": [
@@ -33891,7 +33876,7 @@
   "stars": 113,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:04:30Z",
+  "pushedAt": "2026-11-25T01:43:09Z",
   "license": null,
   "release": null,
   "sources": [
@@ -34024,7 +34009,7 @@
   "repo": "LoreanXavier/pt-pc",
   "url": "https://github.com/LoreanXavier/pt-pc",
   "description": "Native PC port of P.T. (runs from your own PS4 game files)",
-  "stars": 2559,
+  "stars": 2560,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T12:07:28Z",
@@ -34184,7 +34169,7 @@
   "repo": "Lucas-blip-png/dkb-pc-recomp",
   "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
   "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
-  "stars": 1403,
+  "stars": 1404,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T14:56:45Z",
@@ -34194,8 +34179,7 @@
    "date": "2026-11-24T11:20:38Z"
   },
   "sources": [
-   "awesome-decomp-games",
-   "topic:recompilation"
+   "awesome-decomp-games"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -34412,7 +34396,7 @@
   "repo": "ly05010419/MacNativeGames",
   "url": "https://github.com/ly05010419/MacNativeGames",
   "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
-  "stars": 8275,
+  "stars": 8276,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T00:03:53Z",
@@ -34750,9 +34734,29 @@
   "stars": 3,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:11:22Z",
+  "pushedAt": "2026-11-25T01:37:34Z",
   "license": "GPL-3.0",
   "release": null,
+  "sources": [
+   "topic:decompilation"
+  ],
+  "firstSeen": "2026-11-25",
+  "approved": false,
+  "gone": false
+ },
+ "maci0/rebrew": {
+  "repo": "maci0/rebrew",
+  "url": "https://github.com/maci0/rebrew",
+  "description": "Compiler-in-the-loop decompilation workbench for binary-matching game reversing.",
+  "stars": 15,
+  "archived": false,
+  "fork": false,
+  "pushedAt": "2026-11-25T00:58:43Z",
+  "license": "MIT",
+  "release": {
+   "tag": "v6.78.0",
+   "date": "2026-11-25T00:59:00Z"
+  },
   "sources": [
    "topic:decompilation"
   ],
@@ -34948,7 +34952,7 @@
   "repo": "mamcjr/BOTWRecompAndroid",
   "url": "https://github.com/mamcjr/BOTWRecompAndroid",
   "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
-  "stars": 1101,
+  "stars": 1102,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T18:16:04Z",
@@ -34985,7 +34989,7 @@
   "stars": 349,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T14:46:36Z",
+  "pushedAt": "2026-11-25T01:38:06Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -35177,7 +35181,7 @@
   "stars": 1,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:16:54Z",
+  "pushedAt": "2026-11-25T01:27:01Z",
   "license": null,
   "release": null,
   "sources": [
@@ -35263,7 +35267,7 @@
   "repo": "mariopartyrd/marioparty4",
   "url": "https://github.com/mariopartyrd/marioparty4",
   "description": null,
-  "stars": 894,
+  "stars": 895,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-15T20:59:34Z",
@@ -35389,7 +35393,7 @@
   "repo": "mariopartyrd/partyboard",
   "url": "https://github.com/mariopartyrd/partyboard",
   "description": "A WIP PC port of Mario Party 4.",
-  "stars": 60,
+  "stars": 61,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-01T02:15:14Z",
@@ -36750,7 +36754,7 @@
   "repo": "MBU-Team/OpenMBU",
   "url": "https://github.com/MBU-Team/OpenMBU",
   "description": "OpenMBU is a revival of Marble Blast Ultra, the 2006 Xbox 360 arcade classic.",
-  "stars": 266,
+  "stars": 267,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-04-17T20:05:45Z",
@@ -37022,7 +37026,7 @@
   "stars": 171,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T20:38:07Z",
+  "pushedAt": "2026-11-25T01:21:15Z",
   "license": "NOASSERTION",
   "release": {
    "tag": "v0.51.01.14",
@@ -37352,7 +37356,7 @@
   "repo": "metrist38/fefw-recomp",
   "url": "https://github.com/metrist38/fefw-recomp",
   "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
-  "stars": 422,
+  "stars": 423,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T16:51:30Z",
@@ -37840,7 +37844,7 @@
   "repo": "MildRain479/PokePark-Wiicompiled",
   "url": "https://github.com/MildRain479/PokePark-Wiicompiled",
   "description": "A native PC port of PokePark Wii: Pikachu's Adventure by static recompilation (open beta). No game data included.",
-  "stars": 28,
+  "stars": 27,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-23T20:41:07Z",
@@ -40021,7 +40025,7 @@
   "stars": 41,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:11:41Z",
+  "pushedAt": "2026-11-25T01:47:55Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -42464,7 +42468,7 @@
   "stars": 133,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:13:06Z",
+  "pushedAt": "2026-11-25T01:24:44Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.4.0",
@@ -42831,7 +42835,7 @@
   "stars": 188,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:16:47Z",
+  "pushedAt": "2026-11-25T01:45:03Z",
   "license": "MPL-2.0",
   "release": {
    "tag": "v0.10.1",
@@ -42965,12 +42969,11 @@
   "stars": 3,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:55:18Z",
+  "pushedAt": "2026-11-25T01:46:16Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
-   "native-ports",
-   "topic:static-recompilation"
+   "native-ports"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -43020,7 +43023,7 @@
   "stars": 23,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:05:24Z",
+  "pushedAt": "2026-11-25T01:27:24Z",
   "license": "MIT",
   "release": null,
   "sources": [
@@ -43034,7 +43037,7 @@
   "repo": "Nyaldee/Ports-Launcher",
   "url": "https://github.com/Nyaldee/Ports-Launcher",
   "description": "A library manager and installer for unofficial native game ports and recomps. Fully portable, with zero runtime dependencies, and compatible with Windows, Linux, and Android. Written in Rust. Requires a working OpenGL driver for the UI.",
-  "stars": 99,
+  "stars": 101,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-18T17:34:36Z",
@@ -43354,7 +43357,7 @@
   "repo": "Okxmir/super-mario-3d-land-recompiled",
   "url": "https://github.com/Okxmir/super-mario-3d-land-recompiled",
   "description": "Super Mario 3D Land recompiled. Native Windows x64 and Linux port built from a local European 3DS ROM.",
-  "stars": 143,
+  "stars": 144,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T19:56:39Z",
@@ -43665,7 +43668,7 @@
   "repo": "OpenCommunityEdition/OpenCE",
   "url": "https://github.com/OpenCommunityEdition/OpenCE",
   "description": "Halo: Combat Evolved (for original Xbox) ported to Windows, Linux and Android",
-  "stars": 2038,
+  "stars": 2039,
   "archived": false,
   "fork": true,
   "pushedAt": "2026-11-24T07:56:11Z",
@@ -44117,7 +44120,7 @@
   "stars": 237,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:04:47Z",
+  "pushedAt": "2026-11-25T01:28:52Z",
   "license": "NOASSERTION",
   "release": {
    "tag": "launcher-v1.1.0",
@@ -44746,7 +44749,7 @@
   "stars": 1,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:18:38Z",
+  "pushedAt": "2026-11-25T01:22:14Z",
   "license": "MIT",
   "release": null,
   "sources": [
@@ -45380,7 +45383,7 @@
   "repo": "OverkillLabs3/SoS-PS5",
   "url": "https://github.com/OverkillLabs3/SoS-PS5",
   "description": "God of War Sons of Sparta Native on Windows",
-  "stars": 218,
+  "stars": 219,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-08T02:28:13Z",
@@ -45628,7 +45631,7 @@
   "repo": "pakompom/SpaceRangersHD_decomp",
   "url": "https://github.com/pakompom/SpaceRangersHD_decomp",
   "description": "A matching Delphi decompilation of Space Rangers HD: A War Apart - Космические рейнджеры HD: Революция",
-  "stars": 65,
+  "stars": 66,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-16T21:22:00Z",
@@ -46907,11 +46910,11 @@
   "stars": 142,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-23T08:11:17Z",
+  "pushedAt": "2026-11-25T01:19:15Z",
   "license": "GPL-3.0",
   "release": {
-   "tag": "v2026.11.33",
-   "date": "2026-11-23T08:14:10Z"
+   "tag": "v2026.11.34",
+   "date": "2026-11-25T01:21:59Z"
   },
   "sources": [
    "awesome-decomp-games"
@@ -46984,7 +46987,7 @@
   "repo": "playopenz/OpenZ",
   "url": "https://github.com/playopenz/OpenZ",
   "description": "OpenZ: the faithful open-source 3D fan remake of Z (The Bitmap Brothers, 1996) for its 30th anniversary. Free, never sold, 100% original assets.",
-  "stars": 277,
+  "stars": 278,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-18T20:23:00Z",
@@ -47130,7 +47133,7 @@
   "repo": "Pokabbie/pokeemerald-rogue",
   "url": "https://github.com/Pokabbie/pokeemerald-rogue",
   "description": "Decompilation of Pokémon Emerald",
-  "stars": 151,
+  "stars": 152,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-09-14T19:27:43Z",
@@ -47170,11 +47173,12 @@
   "stars": 5,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T15:31:05Z",
+  "pushedAt": "2026-11-25T01:23:14Z",
   "license": "GPL-2.0",
   "release": null,
   "sources": [
-   "topic:recompilation"
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -47238,7 +47242,7 @@
   "repo": "portingpete/The-Darkness-Recomp",
   "url": "https://github.com/portingpete/The-Darkness-Recomp",
   "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
-  "stars": 433,
+  "stars": 434,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-18T03:05:31Z",
@@ -47942,7 +47946,7 @@
   "stars": 2,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:05:32Z",
+  "pushedAt": "2026-11-25T01:39:09Z",
   "license": "CC0-1.0",
   "release": null,
   "sources": [
@@ -48114,7 +48118,7 @@
   "repo": "ProjectLeonidaL/leonida",
   "url": "https://github.com/ProjectLeonidaL/leonida",
   "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
-  "stars": 397,
+  "stars": 399,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T18:12:37Z",
@@ -48334,7 +48338,7 @@
   "repo": "psi29a/d2decomped",
   "url": "https://github.com/psi29a/d2decomped",
   "description": "Diablo 2: Decomped",
-  "stars": 73,
+  "stars": 74,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T23:17:39Z",
@@ -48563,7 +48567,7 @@
   "repo": "Pyrdacor/freeserf.net",
   "url": "https://github.com/Pyrdacor/freeserf.net",
   "description": "Settlers 1 clone written in C#",
-  "stars": 183,
+  "stars": 184,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-24T20:24:54Z",
@@ -48736,10 +48740,10 @@
   "repo": "R0Y00/Xbox2Windows",
   "url": "https://github.com/R0Y00/Xbox2Windows",
   "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
-  "stars": 1907,
+  "stars": 1908,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:19:28Z",
+  "pushedAt": "2026-11-25T01:47:57Z",
   "license": "MIT",
   "release": {
    "tag": "gpu-check-v0.1.0",
@@ -49373,13 +49377,13 @@
   "gone": false
  },
  "ranveersoni98/xenora": {
-  "repo": "ranveersoni98/Xenora",
-  "url": "https://github.com/ranveersoni98/Xenora",
+  "repo": "XenoraOSS/Xenora",
+  "url": "https://github.com/XenoraOSS/Xenora",
   "description": "An experimental Xbox Series X|S recompilation framework for Apple Silicon, targeting native ARM64 execution and RDNA-to-Metal graphics translation through XenoMetal.",
-  "stars": 129,
+  "stars": 130,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:16:39Z",
+  "pushedAt": "2026-11-25T01:26:35Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -49659,7 +49663,7 @@
   "stars": 3478,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:11:00Z",
+  "pushedAt": "2026-11-25T01:43:24Z",
   "license": "MIT",
   "release": {
    "tag": "v0.12.0",
@@ -49831,7 +49835,7 @@
   "stars": 4,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:23:01Z",
+  "pushedAt": "2026-11-25T01:29:33Z",
   "license": "AGPL-3.0",
   "release": null,
   "sources": [
@@ -50500,7 +50504,7 @@
   "repo": "Revan67/RumbleRosesXX-Recomp",
   "url": "https://github.com/Revan67/RumbleRosesXX-Recomp",
   "description": "Open-source Rumble Roses XX native PC recompilation research; user-supplied game data required",
-  "stars": 16,
+  "stars": 17,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-26T00:02:50Z",
@@ -50558,7 +50562,7 @@
   "repo": "Revivedx/SavageWindRecomp",
   "url": "https://github.com/Revivedx/SavageWindRecomp",
   "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
-  "stars": 5106,
+  "stars": 5107,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-22T19:06:06Z",
@@ -50709,7 +50713,7 @@
   "stars": 196,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:01:39Z",
+  "pushedAt": "2026-11-25T01:32:40Z",
   "license": "NOASSERTION",
   "release": {
    "tag": "v0.3.1",
@@ -50787,7 +50791,7 @@
   "repo": "rimidalv333/longshot-oberon",
   "url": "https://github.com/rimidalv333/longshot-oberon",
   "description": "Port of Longshot targeting 0400486024DEC000 rev 1.1.1 NS2 for Oberon (base PS5 only) optimized for RDNA2-class GPU (compute shaders) and a stable 30 (up to 60 with framegen). Build on Linux/Windows(WSL) - No copyrighted files included ",
-  "stars": 30,
+  "stars": 31,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T23:40:25Z",
@@ -50902,7 +50906,7 @@
   "repo": "riseio/TWIPE_00Sheven",
   "url": "https://github.com/riseio/TWIPE_00Sheven",
   "description": "A static recompilation project of the N64 game The World Is Not Enough",
-  "stars": 96,
+  "stars": 97,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-10-27T22:09:11Z",
@@ -51505,7 +51509,7 @@
   "stars": 859,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-22T12:14:14Z",
+  "pushedAt": "2026-11-25T01:33:38Z",
   "license": null,
   "release": {
    "tag": "v2.0.3911",
@@ -52211,7 +52215,7 @@
   "stars": 294,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T21:09:20Z",
+  "pushedAt": "2026-11-25T01:47:35Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.4.3",
@@ -52884,7 +52888,7 @@
   "repo": "saulob/el-chavo-kart-recompiled",
   "url": "https://github.com/saulob/el-chavo-kart-recompiled",
   "description": "Chaves Kart (El Chavo Kart) for Xbox 360, statically recompiled as a native PC port for Windows and Linux, with online multiplayer, modern graphics options and Steam Deck support",
-  "stars": 47,
+  "stars": 46,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-08T05:40:16Z",
@@ -52956,8 +52960,7 @@
   },
   "sources": [
    "topic:pc-port",
-   "topic:recompilation",
-   "topic:static-recompilation"
+   "topic:recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -53110,7 +53113,7 @@
   "stars": 19,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:42:43Z",
+  "pushedAt": "2026-11-25T01:40:58Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -53128,7 +53131,7 @@
   "stars": 359,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:17:03Z",
+  "pushedAt": "2026-11-25T01:47:23Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -53294,7 +53297,7 @@
   "stars": 2904,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:14:00Z",
+  "pushedAt": "2026-11-25T01:44:07Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v2026.4.0",
@@ -53992,7 +53995,7 @@
   "repo": "ShadowMario/FNF-PsychEngine",
   "url": "https://github.com/ShadowMario/FNF-PsychEngine",
   "description": "Engine originally used on Mind Games mod",
-  "stars": 1432,
+  "stars": 1433,
   "archived": true,
   "fork": false,
   "pushedAt": "2025-03-24T18:03:54Z",
@@ -54229,7 +54232,7 @@
   "repo": "shdecompilations/silent-hill-decomp",
   "url": "https://github.com/shdecompilations/silent-hill-decomp",
   "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
-  "stars": 971,
+  "stars": 972,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T07:09:44Z",
@@ -54401,7 +54404,7 @@
   "stars": 511,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:45:48Z",
+  "pushedAt": "2026-11-25T01:29:13Z",
   "license": null,
   "release": {
    "tag": "v2.22.1",
@@ -54996,7 +54999,7 @@
   "repo": "Sinan-Karakaya/DQ8-Recompiled",
   "url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled",
   "description": "Recompilation of Dragon Quest VIII (PS2) to run natively on PC and Mac.",
-  "stars": 136,
+  "stars": 137,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-07T16:37:59Z",
@@ -55036,7 +55039,7 @@
   "stars": 29,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:47:24Z",
+  "pushedAt": "2026-11-25T01:19:38Z",
   "license": "MIT",
   "release": null,
   "sources": [
@@ -55923,7 +55926,7 @@
   "stars": 205,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:34:34Z",
+  "pushedAt": "2026-11-25T01:33:55Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -55940,7 +55943,7 @@
   "stars": 141,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:09:30Z",
+  "pushedAt": "2026-11-25T01:43:19Z",
   "license": "NOASSERTION",
   "release": null,
   "sources": [
@@ -56763,7 +56766,7 @@
   "stars": 59,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T22:58:04Z",
+  "pushedAt": "2026-11-25T01:24:36Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "latest-sarif",
@@ -57433,11 +57436,11 @@
   "stars": 182,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T16:39:03Z",
+  "pushedAt": "2026-11-25T01:38:51Z",
   "license": "MIT",
   "release": {
-   "tag": "v0.2.13",
-   "date": "2026-11-24T16:39:21Z"
+   "tag": "v0.2.14",
+   "date": "2026-11-25T01:39:09Z"
   },
   "sources": [
    "awesome-decomp-games"
@@ -58686,7 +58689,6 @@
   "license": "CC0-1.0",
   "release": null,
   "sources": [
-   "topic:recompilation",
    "topic:source-port"
   ],
   "firstSeen": "2026-11-25",
@@ -58796,7 +58798,7 @@
   "repo": "SulphurS16/Regaliant",
   "url": "https://github.com/SulphurS16/Regaliant",
   "description": "Unofficial Windows PC port of Demon's Souls (2020), Bluepoint's PS5 remake. Runs your own copy of the PS5 game (PPSA01341, version 1.07). No game files included.",
-  "stars": 326,
+  "stars": 328,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T22:49:56Z",
@@ -58934,7 +58936,7 @@
   "repo": "Supermedo/uncharted_pc",
   "url": "https://github.com/Supermedo/uncharted_pc",
   "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
-  "stars": 2367,
+  "stars": 2368,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-15T18:45:35Z",
@@ -59380,7 +59382,7 @@
   "repo": "tangerineturtle1/NX2navi",
   "url": "https://github.com/tangerineturtle1/NX2navi",
   "description": null,
-  "stars": 4355,
+  "stars": 4356,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-16T02:02:29Z",
@@ -59821,7 +59823,7 @@
   "repo": "TeamFlos/phira",
   "url": "https://github.com/TeamFlos/phira",
   "description": null,
-  "stars": 2808,
+  "stars": 2809,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T14:51:04Z",
@@ -60279,7 +60281,7 @@
   "stars": 160,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:05:20Z",
+  "pushedAt": "2026-11-25T01:27:03Z",
   "license": "MIT",
   "release": {
    "tag": "v0.4.7.5",
@@ -60789,7 +60791,7 @@
   "repo": "TGP482/FCIP-XEXRecomp",
   "url": "https://github.com/TGP482/FCIP-XEXRecomp",
   "description": "An unofficial PC port of Far Cry Instincts: Predator via static recompilation.",
-  "stars": 26,
+  "stars": 27,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T20:02:41Z",
@@ -60830,7 +60832,7 @@
   "repo": "TGP482/SCDA-XBERecomp",
   "url": "https://github.com/TGP482/SCDA-XBERecomp",
   "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
-  "stars": 500,
+  "stars": 501,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-01T09:48:18Z",
@@ -61123,7 +61125,7 @@
   "repo": "TheBozos/DC_Recomp",
   "url": "https://github.com/TheBozos/DC_Recomp",
   "description": "Dark Cloud (NTSC-U, SCUS-97111) static recompilation with PS2Recomp: configs, scripts, notes (no game data)",
-  "stars": 6,
+  "stars": 7,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T13:24:21Z",
@@ -61144,7 +61146,7 @@
   "repo": "TheBozos/SoulCaliburIII_Recomp",
   "url": "https://github.com/TheBozos/SoulCaliburIII_Recomp",
   "description": "Soulcalibur III (USA) static recompilation with PS2Recomp - configs, overrides, notes (no game data)",
-  "stars": 29,
+  "stars": 30,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T20:51:17Z",
@@ -61183,7 +61185,7 @@
   "repo": "TheBozos/VP2S_Recomp",
   "url": "https://github.com/TheBozos/VP2S_Recomp",
   "description": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
-  "stars": 31,
+  "stars": 32,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T00:01:05Z",
@@ -61383,7 +61385,7 @@
   "repo": "TheForceEngine/TheForceEngine",
   "url": "https://github.com/TheForceEngine/TheForceEngine",
   "description": "Modern \"Jedi Engine\" replacement supporting Dark Forces, mods, and in the future Outlaws.",
-  "stars": 1194,
+  "stars": 1193,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-14T17:45:13Z",
@@ -61983,8 +61985,7 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port",
-   "topic:recompilation"
+   "topic:pc-port"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -61997,7 +61998,7 @@
   "stars": 51,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:05:53Z",
+  "pushedAt": "2026-11-25T01:48:12Z",
   "license": "CC0-1.0",
   "release": null,
   "sources": [
@@ -62554,7 +62555,7 @@
   "stars": 51,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:41:53Z",
+  "pushedAt": "2026-11-25T01:25:33Z",
   "license": "MIT",
   "release": {
    "tag": "v1.15.5",
@@ -62574,7 +62575,7 @@
   "stars": 17,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-21T20:51:24Z",
+  "pushedAt": "2026-11-25T01:29:04Z",
   "license": null,
   "release": {
    "tag": "v0.7.5",
@@ -62974,8 +62975,7 @@
    "date": "2026-11-24T14:44:07Z"
   },
   "sources": [
-   "native-ports",
-   "topic:recompilation"
+   "native-ports"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63237,7 +63237,7 @@
   "stars": 7,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:23:29Z",
+  "pushedAt": "2026-11-25T01:44:29Z",
   "license": "MIT",
   "release": null,
   "sources": [
@@ -63261,7 +63261,9 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port"
+   "topic:pc-port",
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63279,7 +63281,9 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port"
+   "topic:pc-port",
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63314,7 +63318,9 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port"
+   "topic:pc-port",
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63332,7 +63338,9 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port"
+   "topic:pc-port",
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63350,7 +63358,9 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port"
+   "topic:pc-port",
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63368,7 +63378,9 @@
   "release": null,
   "sources": [
    "native-ports",
-   "topic:pc-port"
+   "topic:pc-port",
+   "topic:recompilation",
+   "topic:static-recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -63992,8 +64004,7 @@
   "license": "MIT",
   "release": null,
   "sources": [
-   "topic:recompilation",
-   "topic:static-recompilation"
+   "topic:recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -64030,8 +64041,7 @@
   "sources": [
    "awesome-decomp-games",
    "native-ports",
-   "topic:recompilation",
-   "topic:static-recompilation"
+   "topic:recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -64162,7 +64172,7 @@
   "stars": 39,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:38:21Z",
+  "pushedAt": "2026-11-25T01:44:11Z",
   "license": "GPL-3.0",
   "release": null,
   "sources": [
@@ -64309,7 +64319,7 @@
   "repo": "valentderah/totk-pc-recomp",
   "url": "https://github.com/valentderah/totk-pc-recomp",
   "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
-  "stars": 8232,
+  "stars": 8233,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T19:18:38Z",
@@ -64550,7 +64560,7 @@
   "repo": "shdecompilations/silent-hill-decomp",
   "url": "https://github.com/shdecompilations/silent-hill-decomp",
   "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
-  "stars": 971,
+  "stars": 972,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T07:09:44Z",
@@ -65342,10 +65352,10 @@
   "repo": "VlcekM/MeitouClient",
   "url": "https://github.com/VlcekM/MeitouClient",
   "description": "Open-source reimplementation of the Kenshi engine in C# / .NET 10 using a custom Vulkan renderer. Needs your own copy of Kenshi.",
-  "stars": 151,
+  "stars": 152,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:55:43Z",
+  "pushedAt": "2026-11-25T01:40:54Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "launcher-v1.21.1",
@@ -65427,7 +65437,7 @@
   "stars": 94,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T22:57:05Z",
+  "pushedAt": "2026-11-25T01:25:24Z",
   "license": "MIT",
   "release": {
    "tag": "v0.1.7",
@@ -65683,7 +65693,7 @@
   "repo": "vyanhursky/DefJamFFNY-recomp",
   "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
   "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
-  "stars": 285,
+  "stars": 286,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T20:15:27Z",
@@ -65752,8 +65762,7 @@
    "date": "2026-11-23T19:16:50Z"
   },
   "sources": [
-   "topic:recompilation",
-   "topic:static-recompilation"
+   "topic:recompilation"
   ],
   "firstSeen": "2026-11-25",
   "approved": false,
@@ -67100,6 +67109,23 @@
   "approved": false,
   "gone": false
  },
+ "xenoraoss/xenora": {
+  "repo": "XenoraOSS/Xenora",
+  "url": "https://github.com/XenoraOSS/Xenora",
+  "description": "An experimental Xbox Series X|S recompilation framework for Apple Silicon, targeting native ARM64 execution and RDNA-to-Metal graphics translation through XenoMetal.",
+  "stars": 130,
+  "archived": false,
+  "fork": false,
+  "pushedAt": "2026-11-25T01:26:35Z",
+  "license": "GPL-3.0",
+  "release": null,
+  "sources": [
+   "topic:recompilation"
+  ],
+  "firstSeen": "2026-11-25",
+  "approved": false,
+  "gone": false
+ },
  "xfynx/prsche-disasm": {
   "repo": "xfynx/prsche-disasm",
   "url": "https://github.com/xfynx/prsche-disasm",
@@ -67469,7 +67495,7 @@
   "stars": 3,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:57:14Z",
+  "pushedAt": "2026-11-25T01:27:45Z",
   "license": "Apache-2.0",
   "release": null,
   "sources": [
@@ -67634,7 +67660,7 @@
   "stars": 36,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T00:45:05Z",
+  "pushedAt": "2026-11-25T01:20:17Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.3.0",
@@ -67865,7 +67891,7 @@
   "stars": 227,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:01:35Z",
+  "pushedAt": "2026-11-25T01:40:15Z",
   "license": "GPL-2.0",
   "release": null,
   "sources": [
@@ -68517,7 +68543,7 @@
   "stars": 450,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:09:16Z",
+  "pushedAt": "2026-11-25T01:21:21Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.4.1",
@@ -68780,7 +68806,7 @@
   "repo": "ZallaxDev/emerald-3ds",
   "url": "https://github.com/ZallaxDev/emerald-3ds",
   "description": "Native Pokémon Emerald port for Nintendo 3DS, featuring dual-screen gameplay, stereoscopic 3D, and a fully 3D world.",
-  "stars": 811,
+  "stars": 812,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-24T15:54:02Z",
@@ -69329,7 +69355,7 @@
   "repo": "zeranemesis/Marioparty4",
   "url": "https://github.com/zeranemesis/Marioparty4",
   "description": null,
-  "stars": 93,
+  "stars": 94,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-10T10:52:51Z",
@@ -69441,7 +69467,7 @@
   "stars": 44,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-24T23:48:48Z",
+  "pushedAt": "2026-11-25T01:38:09Z",
   "license": "GPL-3.0",
   "release": {
    "tag": "v0.2.5",
@@ -69461,11 +69487,11 @@
   "stars": 450,
   "archived": false,
   "fork": false,
-  "pushedAt": "2026-11-25T01:14:52Z",
+  "pushedAt": "2026-11-25T01:41:04Z",
   "license": "GPL-3.0",
   "release": {
-   "tag": "v0.14.3",
-   "date": "2026-11-24T20:02:54Z"
+   "tag": "v0.15.0",
+   "date": "2026-11-25T01:19:56Z"
   },
   "sources": [
    "awesome-decomp-games"
@@ -69518,7 +69544,7 @@
   "repo": "ZigZagBoi1/ScarlettPort",
   "url": "https://github.com/ZigZagBoi1/ScarlettPort",
   "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
-  "stars": 196,
+  "stars": 198,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T01:03:55Z",
@@ -69787,7 +69813,7 @@
   "repo": "zortos293/Lichii",
   "url": "https://github.com/zortos293/Lichii",
   "description": "VERY experimental Nintendo Switch 2 emulator",
-  "stars": 10231,
+  "stars": 10232,
   "archived": false,
   "fork": false,
   "pushedAt": "2026-11-25T00:31:43Z",
