@@ -7553,7 +7553,8 @@
   "type": "port",
   "stage": "playable",
   "platform": "MS-DOS",
-  "summary": "DOOM Retro is a Windows source port of the original DOOM built around a dark, faithful presentation. It bundles a large set of visual, audio and gameplay options while staying close to the classic game."
+  "summary": "DOOM Retro is a Windows source port of the original DOOM built around a dark, faithful presentation. It bundles a large set of visual, audio and gameplay options while staying close to the classic game.",
+  "buy": "https://www.amazon.com/dp/B00TFXOPUE?tag=indkin-20"
  },
  "brandonrobertz/haunted_house_disassembly": {
   "repo": "brandonrobertz/haunted_house_disassembly",
@@ -13460,7 +13461,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "PlayStation 4",
-  "summary": "bbport runs the PS4 1.09 build of Bloodborne directly on x86-64 Windows or Linux machines. A game-specific runtime replaces PS4 libraries while a Vulkan renderer and shader translator handle graphics, with FSR and DLSS options; game files are not bundled."
+  "summary": "bbport runs the PS4 1.09 build of Bloodborne directly on x86-64 Windows or Linux machines. A game-specific runtime replaces PS4 libraries while a Vulkan renderer and shader translator handle graphics, with FSR and DLSS options; game files are not bundled.",
+  "buy": "https://www.amazon.com/dp/B00KVR4HEC?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B012CZ41ZA?tag=indkin-20"
  },
  "deathkiller/jazz2": {
   "repo": "deathkiller/jazz2",
@@ -14541,7 +14544,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "Nintendo Switch 2",
-  "summary": "Recompia is a native recompilation of a Switch 2 life-simulation and sandbox game for Windows, Linux, macOS and Android. It targets version 2.0.1a and adds multiplayer support, while requiring your own extracted copy of the game."
+  "summary": "Recompia is a native recompilation of a Switch 2 life-simulation and sandbox game for Windows, Linux, macOS and Android. It targets version 2.0.1a and adds multiplayer support, while requiring your own extracted copy of the game.",
+  "buy": "https://www.amazon.com/dp/B0G1VH7HZ1?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B0F3GWXLTS?tag=indkin-20"
  },
  "dittobyte/zonith": {
   "repo": "Dittobyte/Zonith",
@@ -23983,7 +23988,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "Xbox 360",
-  "summary": "Unleashed Recompiled converts the Xbox 360 build of Sonic Unleashed into native C++ and HLSL for Windows and Linux. Its own recompilers handle the original PowerPC code and shaders, and the project adds high resolutions, ultrawide screens and modding."
+  "summary": "Unleashed Recompiled converts the Xbox 360 build of Sonic Unleashed into native C++ and HLSL for Windows and Linux. Its own recompilers handle the original PowerPC code and shaders, and the project adds high resolutions, ultrawide screens and modding.",
+  "buy": "https://www.amazon.com/dp/B0017HPE7E?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B003O6JKLC?tag=indkin-20"
  },
  "helion-engine/helion": {
   "repo": "Helion-Engine/Helion",
@@ -38654,7 +38661,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "Nintendo Switch",
-  "summary": "MHGU Recomp brings Monster Hunter Generations Ultimate to Windows, Linux and Android as a native recompilation. It requires your own game files and supports tested mods, with higher resolutions and widescreen play."
+  "summary": "MHGU Recomp brings Monster Hunter Generations Ultimate to Windows, Linux and Android as a native recompilation. It requires your own game files and supports tested mods, with higher resolutions and widescreen play.",
+  "buy": "https://www.amazon.com/dp/B07CZXQS2V?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B098RKWHHZ?tag=indkin-20"
  },
  "mormonftp-hub/gt5-recomp": {
   "repo": "MormonFTP-hub/gt5-recomp",
@@ -45357,7 +45366,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "PlayStation 4",
-  "summary": "DriveClub Recomp runs the PS4 version 1.28 of DriveClub natively on Windows and Linux. It reads your own base game and update dumps, keeps the original files untouched, and adds display, driving and performance options through a small launcher."
+  "summary": "DriveClub Recomp runs the PS4 version 1.28 of DriveClub natively on Windows and Linux. It reads your own base game and update dumps, keeps the original files untouched, and adds display, driving and performance options through a small launcher.",
+  "buy": "https://www.amazon.com/dp/B07DNM11PC?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B012CZ41ZA?tag=indkin-20"
  },
  "overkilllabs3/gears-judgement-recomp": {
   "repo": "OverkillLabs3/gears-judgement-recomp",
@@ -56413,7 +56424,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "Xbox 360",
-  "summary": "Marathon Recompiled turns the Xbox 360 version of Sonic the Hedgehog (2006) into a native port for Windows, Linux and macOS. XenonRecomp and XenosRecomp translate the original PowerPC code and shaders, and the release contains no game assets."
+  "summary": "Marathon Recompiled turns the Xbox 360 version of Sonic the Hedgehog (2006) into a native port for Windows, Linux and macOS. XenonRecomp and XenosRecomp translate the original PowerPC code and shaders, and the release contains no game assets.",
+  "buy": "https://www.amazon.com/dp/B000G0LE0Y?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B003O6JKLC?tag=indkin-20"
  },
  "sonicretro/chaotix": {
   "repo": "sonicretro/chaotix",
@@ -58956,7 +58969,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "PlayStation 4",
-  "summary": "This port runs all three games from the PS4 Nathan Drake Collection natively on Windows 10 and 11. It translates the original code and graphics to Vulkan and adds higher frame rates, sharp resolutions, remappable controls and trophy support."
+  "summary": "This port runs all three games from the PS4 Nathan Drake Collection natively on Windows 10 and 11. It translates the original code and graphics to Vulkan and adds higher frame rates, sharp resolutions, remappable controls and trophy support.",
+  "buy": "https://www.amazon.com/dp/B00YV6BNTG?tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B012CZ41ZA?tag=indkin-20"
  },
  "supermedo/wet-recomp": {
   "repo": "Supermedo/wet-recomp",
@@ -60785,7 +60800,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "Xbox",
-  "summary": "BLACK-XBERecomp ports the original Xbox release of BLACK to PC using Xbox XBE Recomp. It adds graphics settings, keyboard and mouse controls and in-game options, and asks you to supply your own legally acquired game files."
+  "summary": "BLACK-XBERecomp ports the original Xbox release of BLACK to PC using Xbox XBE Recomp. It adds graphics settings, keyboard and mouse controls and in-game options, and asks you to supply your own legally acquired game files.",
+  "buy": "https://www.amazon.com/s?k=Black+Xbox+2005+game&tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B00005RHQT?tag=indkin-20"
  },
  "tgp482/fcip-xexrecomp": {
   "repo": "TGP482/FCIP-XEXRecomp",
@@ -64340,7 +64357,9 @@
   "type": "recomp",
   "stage": "playable",
   "platform": "Nintendo Switch",
-  "summary": "TotK Recomp rebuilds The Legend of Zelda: Tears of the Kingdom as a native x86-64 program for Windows and Linux. It works from your own dumped game files and adds higher frame rates, custom resolutions and upscaling while remaining early in development."
+  "summary": "TotK Recomp rebuilds The Legend of Zelda: Tears of the Kingdom as a native x86-64 program for Windows and Linux. It works from your own dumped game files and adds higher frame rates, custom resolutions and upscaling while remaining early in development.",
+  "buy": "https://www.amazon.com/s?k=The+Legend+of+Zelda+Tears+of+the+Kingdom+Nintendo+Switch&tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B098RKWHHZ?tag=indkin-20"
  },
  "vallfrr/sh4vita": {
   "repo": "vallfrr/sh4vita",
@@ -68978,7 +68997,9 @@
   "stage": "playable",
   "platform": "Nintendo 64",
   "summary": "Zelda 64: Recompiled statically recompiles Majora's Mask into a native PC build with RT64 rendering. It adds widescreen and high-framerate support, dual-analog and gyro controls, autosaving and mod support; no game assets are included.",
-  "featured": true
+  "featured": true,
+  "buy": "https://www.amazon.com/s?k=The+Legend+of+Zelda+Majora%27s+Mask+Nintendo+64&tag=indkin-20",
+  "buyConsole": "https://www.amazon.com/dp/B00002DHEV?tag=indkin-20"
  },
  "zeldaret/af": {
   "repo": "zeldaret/af",

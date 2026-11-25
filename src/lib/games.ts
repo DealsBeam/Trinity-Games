@@ -5,7 +5,7 @@ export type Game = {
   repo: string; url: string; description: string | null; stars: number; archived: boolean;
   pushedAt: string; license: string | null; release: { tag: string; date: string } | null;
   title: string; slug: string; type?: string; stage?: string; platform?: string;
-  original?: string; summary?: string; buy?: string; featured?: boolean;
+  original?: string; summary?: string; buy?: string; buyConsole?: string; featured?: boolean;
 };
 
 const TYPES: Record<string, string> = { recomp: 'Recomp', port: 'Source port', decomp: 'Decomp', remake: 'Engine remake' };

@@ -52,11 +52,12 @@ const text = g.summary ?? g.description ?? '';
       <div class="art" style={`background:${color(g.repo)}`}>{initials(g.title)}</div>
       <a class="btn primary" href={g.url} target="_blank" rel="noopener">View project on GitHub ↗</a>
       <span class="small">Opens the project's own page. Nothing is hosted here.</span>
-      {g.buy && (
+      {(g.buy || g.buyConsole) && (
         <div class="panel" style="display:flex;flex-direction:column;gap:10px">
           <h3 style="font-size:17px">Need the original?</h3>
-          <a class="btn" href={g.buy} target="_blank" rel="sponsored nofollow noopener">Buy the original game ↗</a>
-          <span class="small">Affiliate link: we may earn a commission at no cost to you.</span>
+          {g.buy && <a class="btn" href={g.buy} target="_blank" rel="sponsored nofollow noopener">Buy the original game ↗</a>}
+          {g.buyConsole && <a class="btn" href={g.buyConsole} target="_blank" rel="sponsored nofollow noopener">Buy the console ↗</a>}
+          <span class="small">Affiliate links: we may earn a commission at no cost to you.</span>
         </div>
       )}
     </aside>
