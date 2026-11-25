@@ -6,5 +6,10 @@
   { "name": "awesome-decomp-games-ru", "url": "https://raw.githubusercontent.com/justxor/awesome-decomp-games-ru/main/README.md" },
   { "name": "awesome-decomp-games-zh", "url": "https://raw.githubusercontent.com/bayshier/awesome-decomp-games-zh/main/README.md" },
   { "name": "gamingnews5-decomps", "url": "https://raw.githubusercontent.com/gamingnews5/awesome-decomp-games/main/README.md" },
-  { "name": "awesome-switch-recomp", "url": "https://raw.githubusercontent.com/AIshihzong/awesome-switch-recomp/main/README.md" }
+  { "name": "awesome-switch-recomp", "url": "https://raw.githubusercontent.com/AIshihzong/awesome-switch-recomp/main/README.md" },
+  { "name": "openportsgames", "url": "https://raw.githubusercontent.com/Kymie131/openportsgames/main/public/data/projects.json" },
+  { "name": "thegamingemporium-decomps", "url": "https://thegamingemporium.com/categories/decompilations-recompilations/" },
+  { "name": "osgameclones", "url": "https://osgameclones.com/" },
+  { "name": "awesome-game-remakes", "url": "https://raw.githubusercontent.com/radek-sprta/awesome-game-remakes/main/README.md" },
+  { "name": "awesome-unofficial-pc-ports", "url": "https://raw.githubusercontent.com/Sebastrion/awesome-unofficial-pc-ports/main/README.md" }
 ]
