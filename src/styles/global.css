@@ -46,7 +46,7 @@ a{color:inherit;text-decoration:none}
 .card:hover{border-color:var(--accent)}
 .art{height:150px;display:flex;align-items:center;justify-content:center;font:700 44px 'Space Grotesk Variable',sans-serif;color:var(--bg)}
 .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px}
-.body h3{font-size:17px}
+.body h2{font-size:17px}
 .sub{font-size:13px;color:var(--muted)}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-size:12px;padding:3px 8px;border-radius:6px;background:var(--chip);color:var(--text2)}

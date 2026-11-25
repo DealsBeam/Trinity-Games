@@ -10,7 +10,7 @@ const search = [g.title, g.repo, g.description, g.summary, g.platform, g.origina
 <a class="card" href={u(`games/${g.slug}/`)} data-type={g.type ?? ''} data-search={search}>
   <div class="art" style={`background:${color(g.repo)}`}>{initials(g.title)}</div>
   <div class="body">
-    <h3>{g.title}</h3>
+    <h2>{g.title}</h2>
     {g.platform && <span class="sub">{g.platform}</span>}
     <div class="tags">
       {typeLabel(g.type) && <span class="tag">{typeLabel(g.type)}</span>}
