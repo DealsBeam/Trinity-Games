@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+import { SITE, u, issueUrl } from '../site';
+import { platforms } from '../lib/games';
+
+interface Props { title?: string; description?: string; }
+const { title, description = SITE.description } = Astro.props;
+const full = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
+const path = Astro.url.pathname;
+const canonical = new URL(path, Astro.site).href;
+const here = (p: string) => (p === '' ? path === u() : path.startsWith(u(p))) ? 'page' : undefined;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{full}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={u('favicon.svg')} />
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href={u('rss.xml')} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={full} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="side">
+        <a class="logo" href={u()}><i></i><b>{SITE.name}</b></a>
+        <nav class="nav" aria-label="Browse">
+          <a href={u()} aria-current={here('')}>Browse all</a>
+          <a href={u('updates/')} aria-current={here('updates/')}>New &amp; updated</a>
+          <a href={u('news/')} aria-current={here('news/')}>News</a>
+        </nav>
+        {platforms.length > 0 && (
+          <nav class="nav" aria-label="Platforms">
+            <span class="lbl">Platforms</span>
+            {platforms.map((p) => <a href={u(`platform/${p.slug}/`)} aria-current={here(`platform/${p.slug}/`)}>{p.name}</a>)}
+          </nav>
+        )}
+        <nav class="nav" aria-label="Community">
+          <span class="lbl">Community</span>
+          <a href={issueUrl('submit-project')} target="_blank" rel="noopener">Submit a project</a>
+          <a href={u('about/')} aria-current={here('about/')}>About</a>
+          <a href={u('takedown/')} aria-current={here('takedown/')}>Takedown requests</a>
+          <a href={u('rss.xml')}>RSS feed</a>
+        </nav>
+      </aside>
+      <main class="main">
+        <div class="wrap">
+          <div class="topbar">
+            <form class="search" role="search" action={u()} method="get">
+              <label class="sr" for="q">Search projects</label>
+              <input id="q" type="search" name="q" placeholder="Search decomps, recomps and ports" autocomplete="off" />
+            </form>
+            <a class="btn" href={issueUrl('submit-project')} target="_blank" rel="noopener">Submit a project</a>
+          </div>
+          <slot />
+          <footer class="foot">
+            We link to projects and never host games, ROMs or downloads. You need your own copy of any original game.
+            Some links to buy original games may be affiliate links. <a href={u('about/')}>About</a> ·
+            <a href={u('privacy/')}>Privacy</a> · <a href={u('takedown/')}>Takedown requests</a>
+          </footer>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+---
+import Base from '../../layouts/Base.astro';
+import GameCard from '../../components/GameCard.astro';
+import { games, typeLabel, stageLabel, initials, color, fmt, type Game } from '../../lib/games';
+import { u } from '../../site';
+
+export function getStaticPaths() {
+  return games.map((g) => ({ params: { slug: g.slug }, props: { g } }));
+}
+const { g } = Astro.props as { g: Game };
+const related = games
+  .filter((x) => x.slug !== g.slug && ((g.platform && x.platform === g.platform) || (!g.platform && g.type && x.type === g.type)))
+  .slice(0, 3);
+const rows: [string, string | null][] = [
+  ['Original game', g.original ?? null],
+  ['Platform', g.platform ?? null],
+  ['Project type', typeLabel(g.type)],
+  ['Status', stageLabel(g.stage)],
+  ['Latest release', g.release ? `${g.release.tag} (${fmt(g.release.date)})` : null],
+  ['License', g.license],
+  ['Last activity', fmt(g.pushedAt)],
+];
+const text = g.summary ?? g.description ?? '';
+---
+<Base title={g.title} description={text || undefined}>
+  <p class="notice">We link to projects and never host games or downloads. You need your own copy of the original game.</p>
+  <nav class="small" aria-label="Breadcrumb"><a href={u()} style="text-decoration:underline">Browse</a> / {g.title}</nav>
+  <div class="detail">
+    <section class="left">
+      <h1>{g.title}</h1>
+      <div class="tags">
+        {typeLabel(g.type) && <span class="tag">{typeLabel(g.type)}</span>}
+        {g.platform && <span class="tag">{g.platform}</span>}
+        {stageLabel(g.stage) && <span class={g.stage === 'playable' ? 'tag ok' : 'tag'}>{stageLabel(g.stage)}</span>}
+      </div>
+      {text && <p class="lead">{text}</p>}
+      {g.archived && <p class="notice">This repository is archived, so development has stopped.</p>}
+      <div>
+        <h2 style="font-size:22px;margin-bottom:8px">Details</h2>
+        {rows.filter(([, v]) => v).map(([k, v]) => <div class="row"><b>{k}</b><span>{v}</span></div>)}
+        <div class="row"><b>Source</b><span><a href={g.url} target="_blank" rel="noopener" style="text-decoration:underline">{g.repo}</a></span></div>
+      </div>
+      <div>
+        <h2 style="font-size:22px;margin-bottom:8px">What you need</h2>
+        <ul class="lead" style="margin:0;padding-left:20px;font-size:15px;line-height:1.8">
+          <li>Your own copy of the original game</li>
+          <li>The project's own instructions: see its page for supported versions and setup</li>
+        </ul>
+      </div>
+    </section>
+    <aside class="right">
+      <div class="art" style={`background:${color(g.repo)}`}>{initials(g.title)}</div>
+      <a class="btn primary" href={g.url} target="_blank" rel="noopener">View project on GitHub ↗</a>
+      <span class="small">Opens the project's own page. Nothing is hosted here.</span>
+      {g.buy && (
+        <div class="panel" style="display:flex;flex-direction:column;gap:10px">
+          <h3 style="font-size:17px">Need the original?</h3>
+          <a class="btn" href={g.buy} target="_blank" rel="sponsored nofollow noopener">Buy the original game ↗</a>
+          <span class="small">Affiliate link: we may earn a commission at no cost to you.</span>
+        </div>
+      )}
+    </aside>
+  </div>
+  {related.length > 0 && (
+    <section class="section">
+      <h2 style="font-size:24px">{g.platform ? `More for ${g.platform}` : 'Related projects'}</h2>
+      <div class="grid">{related.map((x) => <GameCard g={x} />)}</div>
+    </section>
+  )}
+</Base>

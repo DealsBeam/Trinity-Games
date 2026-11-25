@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, issueUrl } from '../site';
+---
+<Base title="Takedown requests" description="How to ask for a listing to be removed or corrected.">
+  <article class="prose">
+    <h1 style="font-size:34px">Takedown requests</h1>
+    <p>{SITE.name} only links to public repositories. We host no game files. If you are a rights holder or a project maintainer and want a listing removed or corrected, open a request and tell us:</p>
+    <ul>
+      <li>the address of the page on this site</li>
+      <li>what should change and why</li>
+      <li>how we can reach you if we have questions</li>
+    </ul>
+    <p><a href={issueUrl('takedown')}>Open a takedown request on GitHub</a></p>
+    <p>We aim to act on valid requests promptly.</p>
+  </article>
+</Base>

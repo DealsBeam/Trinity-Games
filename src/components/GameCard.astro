@@ -1,0 +1,21 @@
+---
+import { u } from '../site';
+import { typeLabel, stageLabel, initials, color, type Game } from '../lib/games';
+
+interface Props { g: Game }
+const { g } = Astro.props;
+const search = [g.title, g.repo, g.description, g.summary, g.platform, g.original, typeLabel(g.type)]
+  .filter(Boolean).join(' ').toLowerCase();
+---
+<a class="card" href={u(`games/${g.slug}/`)} data-type={g.type ?? ''} data-search={search}>
+  <div class="art" style={`background:${color(g.repo)}`}>{initials(g.title)}</div>
+  <div class="body">
+    <h3>{g.title}</h3>
+    {g.platform && <span class="sub">{g.platform}</span>}
+    <div class="tags">
+      {typeLabel(g.type) && <span class="tag">{typeLabel(g.type)}</span>}
+      {stageLabel(g.stage) && <span class={g.stage === 'playable' ? 'tag ok' : 'tag'}>{stageLabel(g.stage)}</span>}
+      {g.archived && <span class="tag">Archived</span>}
+    </div>
+  </div>
+</a>

@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { recentChanges } from '../lib/games';
+import { u } from '../site';
+const items = recentChanges(50);
+---
+<Base title="New & updated" description="Recent releases from the projects we list.">
+  <section class="section">
+    <h1 style="font-size:34px">New &amp; updated</h1>
+    <p class="small">Updated every day from each project's GitHub releases.</p>
+    {items.length === 0 && <p class="notice">No releases recorded yet.</p>}
+    <div class="list">
+      {items.map((c) => (
+        <div class="item">
+          <a href={u(`games/${c.game.slug}/`)}>{c.game.title} <span class="small">{c.tag}</span></a>
+          <span class="small">{c.at}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

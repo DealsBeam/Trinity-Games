@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, u, issueUrl } from '../site';
+---
+<Base title="About" description="What Trinity Games is and how entries are chosen.">
+  <article class="prose">
+    <h1 style="font-size:34px">About {SITE.name}</h1>
+    <p>{SITE.name} is an index of decompilations, recompilations and PC ports of classic games. We link to each project's own page. We never host games, ROMs or downloads, and you need your own copy of any original game.</p>
+    <h2>Project types</h2>
+    <ul>
+      <li><b>Decomp:</b> a reconstruction of a game's source code, usually built to reproduce the original ROM.</li>
+      <li><b>Recomp:</b> a static recompilation that translates a game's original code into code that runs natively on a PC.</li>
+      <li><b>Source port:</b> a native version of a game that loads your copy of the original game data.</li>
+      <li><b>Engine remake:</b> a new implementation of a game's engine.</li>
+    </ul>
+    <h2>How entries are chosen</h2>
+    <p>Every entry is reviewed by hand before it appears. Details like stars, latest release, license and last activity refresh automatically every day from GitHub. Descriptions and notes written by us are our own words.</p>
+    <p>We do not list projects that distribute copyrighted game assets or that are built from leaked material. We may leave out projects with unclear origins or no signs of real maintenance.</p>
+    <h2>Affiliate disclosure</h2>
+    <p>Some pages link to stores where you can buy the original game. Those links may be affiliate links, so we may earn a small commission at no cost to you. They are marked as sponsored.</p>
+    <h2>Contact</h2>
+    <p>To suggest a project, report a mistake or ask for a removal, use the forms on GitHub: <a href={issueUrl('submit-project')}>submit a project</a>, <a href={issueUrl('wrong-data')}>report wrong data</a>, or <a href={u('takedown/')}>request a takedown</a>.</p>
+  </article>
+</Base>

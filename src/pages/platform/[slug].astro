@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import GameCard from '../../components/GameCard.astro';
+import { games, platforms } from '../../lib/games';
+
+export function getStaticPaths() {
+  return platforms.map((p) => ({ params: { slug: p.slug }, props: { name: p.name } }));
+}
+const { name } = Astro.props as { name: string };
+const list = games.filter((g) => g.platform === name);
+---
+<Base title={name} description={`Decompilations, recompilations and ports for ${name}.`}>
+  <h1 style="font-size:34px">{name}</h1>
+  <div class="grid">{list.map((g) => <GameCard g={g} />)}</div>
+</Base>

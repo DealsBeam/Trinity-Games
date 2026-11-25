@@ -1,0 +1,109 @@
+---
+import Base from '../layouts/Base.astro';
+import GameCard from '../components/GameCard.astro';
+import { getCollection } from 'astro:content';
+import { games, typeLabel, stageLabel, initials, color, fmt, recentChanges } from '../lib/games';
+import { u } from '../site';
+
+const featured = games.find((g) => g.featured) ?? games[0];
+const types = [...new Set(games.map((g) => g.type).filter(Boolean) as string[])];
+const news = (await getCollection('news')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+const releases = recentChanges(6);
+---
+<Base>
+  <p class="notice">We link to projects and never host games or downloads. You need your own copy of any original game.</p>
+
+  {featured && (
+    <section class="hero">
+      <div class="txt">
+        <span class="tag ok" style="align-self:flex-start">Featured</span>
+        <h1>{featured.title}</h1>
+        <p>{featured.summary ?? featured.description}</p>
+        <div class="tags">
+          {typeLabel(featured.type) && <span class="tag">{typeLabel(featured.type)}</span>}
+          {stageLabel(featured.stage) && <span class="tag">{stageLabel(featured.stage)}</span>}
+        </div>
+        <div class="actions">
+          <a class="btn primary" href={featured.url} target="_blank" rel="noopener">View project ↗</a>
+          <a class="btn" href={u(`games/${featured.slug}/`)}>Details</a>
+        </div>
+      </div>
+      <div class="art" style={`background:${color(featured.repo)}`}>{initials(featured.title)}</div>
+    </section>
+  )}
+
+  <section class="section">
+    {types.length > 0 && (
+      <div class="chips" role="group" aria-label="Filter by type">
+        <button class="chip on" data-filter="all" aria-pressed="true">All</button>
+        {types.map((t) => <button class="chip" data-filter={t} aria-pressed="false">{typeLabel(t)}</button>)}
+      </div>
+    )}
+    {games.length === 0 && <p class="notice">The catalog is being built. Check back soon.</p>}
+    <div class="grid">{games.map((g) => <GameCard g={g} />)}</div>
+    <p id="no-results" class="notice" hidden>No projects match your search.</p>
+  </section>
+
+  {releases.length > 0 && (
+    <section class="section">
+      <h2>Recent releases</h2>
+      <div class="list">
+        {releases.map((c) => (
+          <div class="item">
+            <a href={u(`games/${c.game.slug}/`)}>{c.game.title} <span class="small">{c.tag}</span></a>
+            <span class="small">{c.at}</span>
+          </div>
+        ))}
+      </div>
+      <a class="small" href={u('updates/')} style="text-decoration:underline">All updates</a>
+    </section>
+  )}
+
+  {news.length > 0 && (
+    <section class="section">
+      <h2>Latest news</h2>
+      <div class="cols">
+        {news.map((p) => (
+          <a class="panel" href={u(`news/${p.id}/`)}>
+            <span class="sub">{fmt(p.data.date.toISOString())}</span>
+            <h3 style="margin-top:6px;font-size:18px">{p.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</Base>
+
+<script>
+  const q = document.querySelector<HTMLInputElement>('input[name=q]')!;
+  const cards = [...document.querySelectorAll<HTMLElement>('.card[data-search]')];
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+  const none = document.getElementById('no-results');
+  let type = 'all';
+
+  function apply() {
+    const t = q.value.trim().toLowerCase();
+    let shown = 0;
+    for (const c of cards) {
+      const ok = (type === 'all' || c.dataset.type === type) && (!t || c.dataset.search!.includes(t));
+      c.hidden = !ok;
+      if (ok) shown++;
+    }
+    if (none) none.hidden = shown > 0 || cards.length === 0;
+  }
+
+  for (const b of chips) {
+    b.addEventListener('click', () => {
+      type = b.dataset.filter!;
+      for (const x of chips) {
+        x.classList.toggle('on', x === b);
+        x.setAttribute('aria-pressed', String(x === b));
+      }
+      apply();
+    });
+  }
+  q.addEventListener('input', apply);
+  q.form?.addEventListener('submit', (e) => { e.preventDefault(); apply(); });
+  q.value = new URLSearchParams(location.search).get('q') ?? '';
+  apply();
+</script>

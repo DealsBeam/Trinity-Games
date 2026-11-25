@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { fmt } from '../../lib/games';
+import { u } from '../../site';
+const posts = (await getCollection('news')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title="News" description="News about decompilation, recompilation and port projects.">
+  <section class="section">
+    <h1 style="font-size:34px">News</h1>
+    {posts.length === 0 && <p class="notice">No posts yet.</p>}
+    <div class="cols">
+      {posts.map((p) => (
+        <a class="panel" href={u(`news/${p.id}/`)}>
+          <span class="sub">{fmt(p.data.date.toISOString())}</span>
+          <h2 style="margin-top:6px;font-size:20px">{p.data.title}</h2>
+          <p class="small" style="margin-top:8px">{p.data.summary}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>
