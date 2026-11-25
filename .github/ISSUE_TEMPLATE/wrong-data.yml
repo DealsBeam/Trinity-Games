@@ -1,0 +1,16 @@
+name: Wrong data
+description: Report an error on a listing
+labels: [data]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true

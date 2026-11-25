@@ -1,0 +1,20 @@
+name: Takedown request
+description: Ask us to remove or correct a listing
+labels: [takedown]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: What should change, and why?
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: How can we reach you? (optional)

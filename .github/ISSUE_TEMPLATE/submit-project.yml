@@ -1,0 +1,14 @@
+name: Submit a project
+description: Suggest a decomp, recomp or port
+labels: [submission]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything we should know?
