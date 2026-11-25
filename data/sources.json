@@ -1,5 +1,10 @@
 [
   { "name": "samidy-decomps", "url": "https://raw.githubusercontent.com/SamidyFR/Game-Decompilations/main/README.md" },
   { "name": "awesome-decomp-games", "url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/README.md" },
-  { "name": "native-ports", "url": "https://raw.githubusercontent.com/matheusbrauna/native-ports/main/data/ports.json" }
+  { "name": "native-ports", "url": "https://raw.githubusercontent.com/matheusbrauna/native-ports/main/data/ports.json" },
+  { "name": "awesome-game-decompilations", "url": "https://raw.githubusercontent.com/CharlotteCross1998/awesome-game-decompilations/main/README.md" },
+  { "name": "awesome-decomp-games-ru", "url": "https://raw.githubusercontent.com/justxor/awesome-decomp-games-ru/main/README.md" },
+  { "name": "awesome-decomp-games-zh", "url": "https://raw.githubusercontent.com/bayshier/awesome-decomp-games-zh/main/README.md" },
+  { "name": "gamingnews5-decomps", "url": "https://raw.githubusercontent.com/gamingnews5/awesome-decomp-games/main/README.md" },
+  { "name": "awesome-switch-recomp", "url": "https://raw.githubusercontent.com/AIshihzong/awesome-switch-recomp/main/README.md" }
 ]

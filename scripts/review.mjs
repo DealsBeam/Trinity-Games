@@ -4,7 +4,7 @@ import readline from 'node:readline';
 
 const min = Number(process.argv.find((a) => a.startsWith('--min-stars='))?.split('=')[1] ?? 100);
 const SINCE = '2024-11-25';
-const NAME_JUNK = /awesome|[-_]list|list[-_]|resources|tools|template|starter|example|dotfiles|badge|collection|curated|index|meta$/i;
+const NAME_JUNK = /awesome|[-_]list|list[-_]|resources|tools?|toolkit|tooling|template|starter|example|dotfiles|badge|collection|curated|index|meta$/i;
 const DESC_JUNK = /\b(emulator|emulation|launcher|frontend|library|framework|sdk|plugin|installer|patcher|script|scripts|docker|website|tutorial|course|benchmark|loader|wrapper|tool|tools|engine|decompiler|api)\b/i;
 const highConfidence = (g) => (g.sources ?? []).some((s) => s === 'native-ports' || s.startsWith('topic:'));
 const reviewable = (g) =>
