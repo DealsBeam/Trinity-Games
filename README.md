@@ -1,50 +1,69 @@
 # Trinity Games
 
-A hand-reviewed index of decompilations, recompilations and PC ports of classic games.
-Static Astro site on GitHub Pages. A daily GitHub Action refreshes project data and redeploys.
+A hand-reviewed index of decompilations, recompilations, ports and remakes of games. Static Astro site on GitHub Pages; a daily Action refreshes project data and redeploys.
 
-## Setup
+- Live site: https://dealsbeam.github.io/Trinity-Games/
+- Public repo: https://github.com/DealsBeam/Trinity-Games
 
-Needs Node >= 22.23.4, git, and the GitHub CLI logged in (`gh auth status`).
+No game files, ROMs, downloads or game assets are hosted or linked. Project links point to public repos. Buy links are Amazon affiliate links (tag `indkin-20`), marked `sponsored` with an on-page disclosure.
+
+## Requirements
+
+- Node >= 22.23.4 and npm
+- Optional: GitHub CLI (`gh`), logged in, for local sync or manual Actions runs
+
+## Local preview
 
 ```bash
+git clone https://github.com/DealsBeam/Trinity-Games.git
+cd Trinity-Games
 npm ci
-git init -b main
-git add -A && git commit -m "init"
-gh repo create Trinity-Games --public --source=. --remote=origin --push
-gh api -X POST 'repos/{owner}/{repo}/pages' -f build_type=workflow || gh api -X PUT 'repos/{owner}/{repo}/pages' -f build_type=workflow
-gh workflow run site
-gh run watch
+npm run dev          # http://localhost:4321/Trinity-Games/
+npm run build
+npm run check        # internal link check
+npm run preview
 ```
 
-The run triggered by the first push may fail at the deploy step because Pages was not enabled yet. That is expected. The manual `gh workflow run site` is the one that counts.
+The repo and Pages are already configured. No `git init`, `gh repo create` or Pages setup is needed.
 
-Your site: `https://<your-username>.github.io/Trinity-Games/`
-
-## First sync, then review
+To run the data sync locally (owner token required):
 
 ```bash
-git pull --rebase
-jq 'length' data/games.json
-npm run review
-git add -A && git commit -m "review: first batch" && git push
+GITHUB_TOKEN=$(gh auth token) npm run sync
 ```
 
-`npm run review` shows unreviewed repos (best candidates first) and asks approve / reject / skip. It saves after every answer, so you can quit any time. Only approved entries appear on the site. Use `npm run review -- --min-stars=0` to see low-star repos too.
+## How data works
 
-## Weekly routine
+- `data/sources.json` lists the 13 discovery sources.
+- `data/games.json` is the catalog. Only entries with `"approved": true` appear on the site.
+- The `site` workflow runs at 04:17 UTC daily and on push to `main`. It syncs data, commits changes as `sync-bot`, builds, and deploys to Pages. Manual run: `gh workflow run site`.
+- The sync preserves owner-maintained fields: `title`, `type`, `stage`, `platform`, `original`, `summary`, `buy`, `buyConsole`, `featured`, `approved`, `rejected`, `notes`.
+
+## Review entries (owner only)
 
 ```bash
 git pull --rebase
 npm run review
-npm run digest        # new releases this week, for your post or newsletter
-git add -A && git commit -m "review" && git push
+npm run check
+git add data/games.json && git commit -m "review: batch" && git push
+```
+
+`npm run review` shows unreviewed repos (best candidates first) and asks approve / reject / skip. It saves after every answer, so you can quit any time. Use `npm run review -- --min-stars=0` to see low-star repos too. Every entry is hand-approved by the owner.
+
+## Weekly routine (owner)
+
+```bash
+git pull --rebase
+npm run review
+npm run digest        # prints new releases for a post or newsletter
+npm run check
+git add data/games.json && git commit -m "review" && git push
 ```
 
 ## Editing an entry
 
-Edit `data/games.json` by hand. These fields survive every sync:
-`title`, `type` (recomp | port | decomp | remake), `stage` (playable | builds-rom), `platform`, `original`, `summary` (your own words), `buy` (affiliate link), `featured` (true on one entry), `approved`, `rejected`.
+Edit `data/games.json` by hand. Fields that survive sync:
+`title`, `type` (`recomp` | `port` | `decomp` | `remake`), `stage` (`playable` | `builds-rom`), `platform`, `original`, `summary` (our own words), `buy` (game affiliate link), `buyConsole` (console affiliate link), `featured` (true on one entry), `approved`, `rejected`, `notes`.
 
 ## News
 
@@ -59,23 +78,18 @@ summary: One line.
 Body in Markdown.
 ```
 
-## Local preview
+## Contributing
 
-```bash
-npm run dev          # http://localhost:4321/Trinity-Games/
-npm run build && npm run preview
-GITHUB_TOKEN=$(gh auth token) npm run sync    # run the data sync locally
-```
+Open an issue or PR with a public project repo. Please do not add game files, downloads or copyrighted assets. The owner reviews and approves all entries.
 
 ## Troubleshooting
 
-- **Deploy fails / Pages not found:** run the `gh api ... pages` command above, then `gh workflow run site`.
 - **`git push` rejected:** the bot committed data in the meantime. Run `git pull --rebase`, then push.
-- **"Commit refreshed data" fails with a permission error:** `gh api -X PUT 'repos/{owner}/{repo}/actions/permissions/workflow' -f default_workflow_permissions=write`
-- **Sync says "refusing to continue" or "reported missing at once":** a safety check tripped, usually a source outage or a GitHub hiccup. Nothing was overwritten. Re-run later with `gh workflow run site`.
-- **Rename the repo?** Do it before you share the link. The base path comes from the repo name.
-- **Custom domain later:** set the domain in the repo's Pages settings, then `gh variable set CUSTOM_DOMAIN --body "yourdomain.com"`.
+- **Sync says "refusing to continue":** a safety check tripped; nothing was overwritten. Re-run with `gh workflow run site`.
+- **Build fails on internal links:** run `npm run check`.
+- **Local sync returns 401/403:** check `gh auth status` and `GITHUB_TOKEN`.
+- **Custom domain later:** configure it in Pages settings, then `gh variable set CUSTOM_DOMAIN --body "example.com"`.
 
-## Before you promote it
+## Before you promote
 
-Check the name against trademark databases, read the About, Takedown and Privacy pages and adjust the wording to what you actually do, and keep the no-hosting rule strict.
+Check the name against trademark databases, review the About, Takedown and Privacy wording, and keep the no-hosting rule strict.
