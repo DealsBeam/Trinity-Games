@@ -1,12 +1,22 @@
-// Interactive reviewer: node scripts/review.mjs [--min-stars=10]
+// Interactive reviewer: node scripts/review.mjs [--min-stars=100]
 import { readFile, writeFile } from 'node:fs/promises';
 import readline from 'node:readline';
 
-const min = Number(process.argv.find((a) => a.startsWith('--min-stars='))?.split('=')[1] ?? 10);
+const min = Number(process.argv.find((a) => a.startsWith('--min-stars='))?.split('=')[1] ?? 100);
+const SINCE = '2024-11-25';
+const NAME_JUNK = /awesome|[-_]list|list[-_]|resources|tools|template|starter|example|dotfiles|badge|collection|curated|index|meta$/i;
+const DESC_JUNK = /\b(emulator|emulation|launcher|frontend|library|framework|sdk|plugin|installer|patcher|script|scripts|docker|website|tutorial|course|benchmark|loader|wrapper|tool|tools|engine|decompiler|api)\b/i;
+const highConfidence = (g) => (g.sources ?? []).some((s) => s === 'native-ports' || s.startsWith('topic:'));
+const reviewable = (g) =>
+  g.stars >= min && !g.approved && !g.rejected && !g.gone &&
+  !g.fork && !g.archived && g.description &&
+  g.pushedAt?.slice(0, 10) >= SINCE &&
+  !NAME_JUNK.test(g.repo) && !DESC_JUNK.test(g.description);
 const games = JSON.parse(await readFile('data/games.json', 'utf8'));
 const pending = Object.entries(games)
-  .filter(([, g]) => !g.approved && !g.rejected && !g.gone && g.stars >= min)
-  .sort(([, a], [, b]) => (b.sources?.length || 0) - (a.sources?.length || 0) || b.stars - a.stars);
+  .filter(([, g]) => reviewable(g))
+  .sort(([, a], [, b]) => Number(highConfidence(b)) - Number(highConfidence(a)) ||
+    (b.sources?.length || 0) - (a.sources?.length || 0) || b.stars - a.stars);
 
 const save = () => writeFile('data/games.json', JSON.stringify(games, null, 1) + '\n');
 // Queue-based input: works when typing, pasting several answers, or piping stdin.
@@ -25,7 +35,8 @@ const ask = async (q) => {
 const TYPES = { r: 'recomp', p: 'port', d: 'decomp', e: 'remake' };
 const STAGES = { p: 'playable', b: 'builds-rom' };
 
-console.log(`${pending.length} pending (min stars ${min}). Decisions are saved as you go.`);
+const hidden = Object.values(games).filter((g) => g.stars >= min && !g.approved && !g.rejected && !g.gone && !reviewable(g)).length;
+console.log(`${pending.length} pending (min stars ${min}); ${hidden} hidden by filters. Decisions are saved as you go.`);
 let i = 0, approved = 0;
 try {
   for (const [key, g] of pending) {
