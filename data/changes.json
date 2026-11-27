@@ -1,5 +1,17 @@
 [
  {
+  "at": "2026-11-27",
+  "type": "release",
+  "repo": "morerokk/MHGURecomp",
+  "tag": "0.20.4"
+ },
+ {
+  "at": "2026-11-27",
+  "type": "release",
+  "repo": "Dittobyte/Recompia",
+  "tag": "v0.18.0"
+ },
+ {
   "at": "2026-11-26",
   "type": "release",
   "repo": "morerokk/MHGURecomp",
