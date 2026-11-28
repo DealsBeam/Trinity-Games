@@ -1,5 +1,23 @@
 [
  {
+  "at": "2026-11-28",
+  "type": "release",
+  "repo": "valentderah/totk-pc-recomp",
+  "tag": "v0.5.1"
+ },
+ {
+  "at": "2026-11-28",
+  "type": "release",
+  "repo": "morerokk/MHGURecomp",
+  "tag": "0.20.5"
+ },
+ {
+  "at": "2026-11-28",
+  "type": "release",
+  "repo": "Dittobyte/Recompia",
+  "tag": "v0.18.1"
+ },
+ {
   "at": "2026-11-27",
   "type": "release",
   "repo": "morerokk/MHGURecomp",
